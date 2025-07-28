@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amar Saleem - Freelance IT Contractor specializing in global infrastructure operations, cloud solutions, and system optimization.">
+    <meta name="keywords" content="IT contractor, cloud infrastructure, system administration, freelance IT services, AWS, cybersecurity, Amar Saleem">
+    <meta name="author" content="Amar Saleem">
+    <title>Amar Saleem - IT Contractor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+        }
+        header {
+            background: #1a2a44;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1.5rem;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: #e6ecef;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+        }
+        .btn {
+            background: #00a79d;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+        }
+        .btn:hover {
+            background: #00887a;
+        }
+        section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .skills-grid, .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .skill, .portfolio-item {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .skill h3, .portfolio-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        button {
+            background: #00a79d;
+            color: white;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+        button:hover {
+            background: #00887a;
+        }
+        .contact-links {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .contact-links a {
+            color: #00a79d;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            .skills-grid, .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amar Saleem</h1>
+        <p>Freelance IT Contractor – Global Infrastructure Operations & Cloud Solutions</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home" class="hero">
+        <h1>Reliable IT Solutions for Global Enterprises</h1>
+        <p>Specializing in cloud infrastructure, system optimization, and cybersecurity to drive operational excellence.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>As a Global Infrastructure Operations Analyst at Cytiva, I bring extensive experience in managing and optimizing IT infrastructure for high-performance environments. My expertise spans cloud solutions, system administration, and cybersecurity, delivering tailored solutions to meet client needs. I’m passionate about leveraging technology to enhance efficiency and security for businesses worldwide.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <h3>Cloud Infrastructure</h3>
+                <p>AWS, Azure, Google Cloud</p>
+            </div>
+            <div class="skill">
+                <h3>System Administration</h3>
+                <p>Windows/Linux Servers, Network Management</p>
+            </div>
+            <div class="skill">
+                <h3>Cybersecurity</h3>
+                <p>Security Audits, Threat Mitigation</p>
+            </div>
+            <div class="skill">
+                <h3>DevOps</h3>
+                <p>Docker, Kubernetes, CI/CD Pipelines</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Cloud Migration Project</h3>
+                <p>Led a seamless migration of legacy systems to AWS for a global enterprise, achieving zero downtime and 20% cost reduction.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Infrastructure Optimization</h3>
+                <p>Redesigned global infrastructure at Cytiva, improving system reliability by 25% and reducing latency across operations.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Cybersecurity Audit</h3>
+                <p>Conducted a comprehensive security audit, identifying and mitigating 30+ vulnerabilities to enhance system security.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/forms/mzzvgzqv" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-links">
+            <p><a href="https://www.linkedin.com/in/amar-saleem-63b158147">Connect on LinkedIn</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Amar Saleem. All rights reserved.</p>
+    </footer>
+</body>
+</html>
